@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://lcvb00ybytnd"]
+
+[ext_resource type="Script" path="res://Generation.cs" id="1_6dmgn"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_srh7s"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-1, 4)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577.25, 320.25)
+scale = Vector2(1152, 648)
+texture = SubResource("CanvasTexture_srh7s")
+script = ExtResource("1_6dmgn")
