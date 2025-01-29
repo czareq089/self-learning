@@ -45,4 +45,6 @@ int main() {
     cout << endl;
     cout << countless << endl;
     cout << countmore << endl;
+
+    file.close();
 }
